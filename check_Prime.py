@@ -13,7 +13,7 @@ def check_prime():
             print(f"{num} is a prime number")
         else:
             print(f"{num} is not a prime number")
-            print(num,"this is not a prime number")
+         
 
 
 num=int(input("Enter a number : "))
