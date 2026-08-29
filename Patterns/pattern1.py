@@ -1,13 +1,10 @@
-# print this pattern
+# print this pattern (Solid square)
 # ****
 # ****
 # ****
 # ****
 
-
-num=(int(input("Enter num : ")))
-
-for i in range(num):
-    for j in range(num):
+for i in range(4):
+    for j in range(4):
         print(" *",end="")
     print("")
