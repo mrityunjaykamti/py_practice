@@ -4,7 +4,11 @@
 # ********
 # ********
 
-for i in range(3):
-    for j in range(7):
+
+row=int(input("Enter row : "))
+col=int(input("Enter col : "))
+
+for i in range(row):
+    for j in range(col):
         print(" *",end="")
     print()
